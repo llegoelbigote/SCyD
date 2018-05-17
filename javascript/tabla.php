@@ -6,7 +6,7 @@
  
  echo '<label>Filtro: <input id="filtro" name="filtro" /></label>';
  
- $props = array('nombre'=>array('class'=>'busca'), 'fecha'=>'class="busca"');
+ $props = array('id'=>array('class'=>'busca'));
  
  HTML::tabla($liga, 'Usuarios registrados', $cols, $props);
 ?>
