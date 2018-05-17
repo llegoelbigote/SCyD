@@ -3,7 +3,7 @@
  //BD('localhost', 'root', '', 'base');
  $liga = LIGA('base.usuarios');
  $campos = array('nombre',
-  'contraseña'=>'<input type="password" name="contraseña" id="contraseña" />');
+  'contraseña'=>'<input type="password" name="contraseña" id="contraseña" />', 'AgregarrArchivo'=>'<input type="file" name=adjunto" accept=".pdf,.jpg,.png" multiple>'
  $atributos = array('form'=>'id="inserta" action="insertar.php" method="POST"');
  HTML::forma($liga, 'Nuevo usuario', $campos, $atributos);
  
