@@ -13,8 +13,7 @@
  
  $campos = array('cual'=>$cual,
                  'nombre',
-                 'contraseña'=>'<input type="password" name="contraseña" id="xcontraseña" />',
-                 'fecha');
+                 'contraseña'=>'<input type="password" name="contraseña" id="xcontraseña" />');
  $atributos = array(//'form'=>'id="modifica" action="modificar.php" method="POST"',
                     'form'=>array('id'=>'modifica', 'action'=>'modificar.php', 'method'=>'POST'),
                     'prefid'=>'x');
